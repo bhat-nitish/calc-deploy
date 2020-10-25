@@ -1,0 +1,8 @@
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\bin\Debug\netcoreapp3.1\Calculator.Service.deps.json
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\bin\Debug\netcoreapp3.1\Calculator.Service.dll
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\bin\Debug\netcoreapp3.1\Calculator.Service.pdb
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\obj\Debug\netcoreapp3.1\Calculator.Service.AssemblyInfoInputs.cache
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\obj\Debug\netcoreapp3.1\Calculator.Service.AssemblyInfo.cs
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\obj\Debug\netcoreapp3.1\Calculator.Service.dll
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\obj\Debug\netcoreapp3.1\Calculator.Service.pdb
+C:\Users\Nitish\source\repos\Calculator\Calculator.Service\obj\Debug\netcoreapp3.1\Calculator.Service.csproj.CoreCompileInputs.cache

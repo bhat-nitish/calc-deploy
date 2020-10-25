@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HZ6PLCedze2e2ytosg4hM2IY9EiPWqHeeWsAtujJs/1O4QOQEL8oVOgXnGtbDaRy9dCKEmb4uKklMQ5Z3qSViw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nitish\\source\\repos\\Calculator\\Calculator.API\\Calculator.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nitish\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
+    "C:\\Users\\Nitish\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
+    "C:\\Users\\Nitish\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Nitish\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\Nitish\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Nitish\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
