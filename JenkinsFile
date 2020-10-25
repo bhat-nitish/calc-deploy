@@ -1,0 +1,46 @@
+pipeline {
+    
+    environment {
+        DOTNET_CLI_HOME = "/tmp"
+    } 
+
+    agent {
+        docker {
+            image 'mcr.microsoft.com/dotnet/core/sdk'
+        }
+    }
+
+    stages {
+        
+        stage('Checkout') {
+            steps {
+                 git url: 'https://github.com/bhat-nitish/calc-deploy.git/', branch: 'main'
+            }
+        }
+        
+        stage('Restore') {
+            steps {
+                 sh 'dotnet restore Calculator.API/Calculator.API.csproj'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                 sh 'dotnet build'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                 sh 'dotnet test'
+            }
+        } 
+        
+        stage('Pack') {
+            steps {
+                 sh "dotnet pack -p:PackageVersion=0.$BUILD_NUMBER.0 --no-build --output nupkgs"
+            }
+        }
+    }
+
+}
