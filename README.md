@@ -6,9 +6,9 @@ A calculator application involving unit tests and ci/cd
 
 The Jenkins file does the following
 
-### Pull the .net core 3.1 docker image 
-### Pull from the repository
-### Restore and Build the project
-### Run unit tests
-### Pack the project with version number equivalent to the build number
-### Publsh a local nupkg
+1. Pull the .net core 3.1 docker image 
+2. Pull from the repository
+3. Restore and Build the project
+4. Run unit tests
+5. Pack the project with version number equivalent to the build number
+6. Publsh a local nupkg
