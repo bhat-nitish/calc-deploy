@@ -5,6 +5,7 @@
     <UserSecretsId>03e21884-9bb6-48ff-ada7-d003fcc8f9a6</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <IsPackable>true</IsPackable> 
+    <PackageVersion>$(PackageVersion)</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
