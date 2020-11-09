@@ -14,7 +14,10 @@ namespace Calculator.Service.Strategies
                 if (inputs==null || inputs.Count == 0)
                     throw new InvalidOperationException(Resources.ListEmpty);
                 // for division, the as parallel needs to be ordered as division is order dependent
-                double quotient = inputs.AsParallel().AsOrdered().Aggregate((a, b) => a / b);
+               // double quotient = inputs.AsParallel().AsOrdered().Aggregate((a, b) => a / b);
+                
+                double quotient = inputs.Aggregate((a, b) => a / b);
+                
                 bool isInfinity = double.IsInfinity(quotient);
                 if (isInfinity)
                     throw new ArgumentOutOfRangeException(Resources.ListOutOfRange);
