@@ -13,7 +13,8 @@ namespace Calculator.Service.Strategies
             {
                 if (inputs == null || inputs.Count == 0)
                     throw new InvalidOperationException(Resources.ListEmpty);
-                double sum = inputs.AsParallel().AsOrdered().Aggregate((a, b) => a - b);
+              //  double sum = inputs.AsParallel().AsOrdered().Aggregate((a, b) => a - b);
+                double sum = inputs.Aggregate((a, b) => a - b);
                 bool isInfinity = double.IsInfinity(sum);
                 if (isInfinity)
                     throw new ArgumentOutOfRangeException(Resources.ListOutOfRange);
