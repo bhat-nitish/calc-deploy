@@ -25,7 +25,7 @@ The Jenkins file does the following
 3. Restore and Build the project
 4. Run unit tests
 5. Pack the project with version number equivalent to the build number
-6. Publsh a local nupkg
+6. Publsh a local nupkg.
 
 ## Docker File
 
