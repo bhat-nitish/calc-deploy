@@ -55,7 +55,7 @@ namespace Calculator.Service.Test
             SubtractStrategy strategy = new SubtractStrategy();
             List<double> inputs = new List<double> { -1, 2, -4, 1, 7, 0, 8, 0, 12, 57302 };
             var result = await strategy.Compute(inputs);
-            Assert.AreEqual(-5730228, result, 0.0001); // The tolerance delta used here is due to the fact that double is used instead of decimal for speed
+            Assert.AreEqual(-57329, result, 0.0001); // The tolerance delta used here is due to the fact that double is used instead of decimal for speed
         }
 
         [Test]
