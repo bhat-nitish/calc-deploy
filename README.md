@@ -16,6 +16,8 @@ A calculator application involving unit tests and ci/cd
 
 ## Jenkins File
 
+The Jenkins file is used by the Multi Branch Pipeline in Jenkins for CI.
+
 The Jenkins file does the following
 
 1. Pull the .net core 3.1 docker image 
